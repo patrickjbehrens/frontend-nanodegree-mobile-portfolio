@@ -10,6 +10,7 @@
 * Placed the screen CSS inline on index.html (vs in a separate CSS file).
 * Optimized images using grunt-responsive-images.
 * Used webfontloader to load fonts.
+* Added 'media="print"' to the print css link.
 
 
 ### "views/js/main.js" File
