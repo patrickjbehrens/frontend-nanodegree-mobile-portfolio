@@ -12,11 +12,11 @@ module.exports = function(grunt) {
               sizes: [{
                 name: 'small',
                 width: 100,
-                quality: 60
+                quality: 40
               },{
                 name: 'large',
-                width: 1000,
-                quality: 60
+                width: 900,
+                quality: 40
               }]
             },
             files: [{
