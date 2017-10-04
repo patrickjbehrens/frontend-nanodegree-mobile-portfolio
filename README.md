@@ -8,7 +8,9 @@
 
 ### "index.html" File
 * Placed the screen CSS inline on index.html (vs in a separate CSS file).
-* Optimized images using Grunt.
+* Optimized images using grunt-responsive-images.
+* Used webfontloader to load fonts.
+
 
 ### "views/js/main.js" File
 * Updated the changePizzaSizes function (which controls the pizza resize slider) to remove the forced synchronous layout and unnecessary code.
@@ -16,7 +18,7 @@
 
 
 ### "pizza.html" File
-* Optimized images using Grunt.
+* Optimized images using grunt-responsive-images.
 
 
 
