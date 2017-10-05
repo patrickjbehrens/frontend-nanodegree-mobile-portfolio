@@ -23,6 +23,8 @@ To run this application:
 ### "views/js/main.js" File
 * Updated the changePizzaSizes function (which controls the pizza resize slider) to remove the forced synchronous layout and unnecessary code.
 * Updated the updatePositions function (which moves the background pizzas during scrolling) to remove the forced synchronous layout.
+* Updated the event listener that generates background sliding pizzas (and calls the updatePositions function) to create only the number of pizzas needed (rather than a fixed 200) and to the document query out of the for loop.
+* Updated the function that creates the background sliding pizzas when the page loads, moving the DOM query outside of the for loop and reducing the number of pizzas created from 100 to 32.
 
 
 ### "pizza.html" File
